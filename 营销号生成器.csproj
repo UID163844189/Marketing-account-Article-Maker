@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Company>阿巴阿巴阿巴</Company>
+    <Authors>分裂侠紫瞳妖</Authors>
+    <PackageId>ltd.imissyou.yinxiaohao</PackageId>
+    <Version>1.1.0</Version>
+    <FileVersion>1.1.0.2</FileVersion>
+  </PropertyGroup>
+
+</Project>

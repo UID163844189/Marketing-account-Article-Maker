@@ -1,0 +1,23 @@
+﻿<Window x:Class="营销号生成器.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:营销号生成器"
+        mc:Ignorable="d"
+        Title="营销号文案生成器 v1.2.1" Height="399" Width="638" AllowDrop="True" WindowStartupLocation="CenterScreen">
+	<Grid>
+		<TextBox x:Name="Key1" HorizontalAlignment="Left" Margin="10,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="Key2" HorizontalAlignment="Left" Margin="135,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="Key3" HorizontalAlignment="Left" Margin="277,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="Key4" HorizontalAlignment="Left" Margin="402,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Button x:Name="Make" Content="生成" HorizontalAlignment="Right" Margin="0,28,43,0" VerticalAlignment="Top" Click="Make_Click"/>
+		<Button x:Name="Copy" Content="复制" HorizontalAlignment="Right" Margin="0,28,10,0" VerticalAlignment="Top" Click="Copy_Click"/>
+		<TextBox x:Name="Out" Margin="10,55,10,10" Text="输出在这里 By UID163844189" TextWrapping="Wrap"/>
+		<Label Content="是" HorizontalAlignment="Left" Margin="255,25,0,0" VerticalAlignment="Top"/>
+		<RadioButton x:Name="Type1" Content="ac，ab是c" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Checked="Type1_Checked"/>
+		<RadioButton x:Name="Type2" Content="b，a是b" HorizontalAlignment="Left" Margin="91,10,0,0" VerticalAlignment="Top" Checked="Type2_Checked"/>
+		<RadioButton x:Name="Type3" Content="b，a是bc" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Checked="Type3_Checked"/>
+
+	</Grid>
+</Window>
